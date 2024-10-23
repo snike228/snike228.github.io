@@ -7,7 +7,17 @@
     <title>Магазин вареників</title>
 </head>
 <body class="body1" >
-    
+    <div class="menu-icon" onclick="toggleMenu()">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <div id="menu" class="menu">
+        <button class="close-btn" onclick="toggleMenu()">&times;</button>
+        <a href="index.html">Головна</a>
+        <a href="about.html">Про нас</a>
+        <a href="zamow.html">Замовлення</a>
+    </div>
     
 
     <header class="head1">
@@ -16,9 +26,7 @@
                 Магазин вареників
             </h1>
             <p class="header-description">Замовляйте наші домашні вареники з різними начинками!</p>
-            <a href="index.html" class="a1">
-                Головна
-            </a>
+            
         </div>
     </header>
     <main class="main-content">
@@ -60,6 +68,7 @@
     <footer class="footer">
         <p class="footer-text">&copy; 2024 Смачні Вареники. Всі права захищені.</p>
     </footer>
+    <script src="index.js"></script>
    
     
 </body>
