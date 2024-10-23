@@ -4,10 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link >
     <title>Магазин вареників</title>
 </head>
 <body>
-    
+    <div class="menu-icon" onclick="toggleMenu()">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <div id="menu" class="menu">
+        <button class="close-btn" onclick="toggleMenu()">&times;</button>
+        <a href="index.html">Головна</a>
+        <a href="about.html">Про нас</a>
+        <a href="zamow.html">Замовлення</a>
+    </div>
 
     <header class="head">
         <div class="div11">
@@ -19,31 +30,50 @@
     <main class="main1">
         <div class="container1">
             <img src="gryby.jpg" alt="Гриби">
+            <p class="pbutton1" style="font-size: large;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                Вареники з грибами
+            </p>
             <button class="order-btn"><a href="zamow.html">Замовити</a></button>
         </div>
         <div class="container2">
             <img src="kapusta.jpg" alt="Капуста">
+            <p class="pbutton2" style="font-size: large;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;" >
+                Вареники з капустою
+            </p>
             <button class="order-btn"><a href="zamow.html">Замовити</a></button>
         </div>
         <div class="container3">
             <img src="vyshnia.jpg" alt="Вишня">
+            <p class="pbutton3" style="font-size: large;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                Вареники з вишнею
+            </p>
             <button class="order-btn"><a href="zamow.html">Замовити</a></button>
         </div>
         <div class="container4">
             <img src="miaso.jpg" alt="Мясо">
+            <p class="pbutton4" style="font-size: large;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                Вареники з м'ясом
+            </p>
             <button class="order-btn"><a href="zamow.html">Замовити</a></button>
         </div>
         <div class="container5">
             <img src="kartoplia.jpg" alt="Картопля">
+            <p class="pbutton5" style="font-size: large;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                Вареники з картоплею
+            </p>
             <button class="order-btn"><a href="zamow.html">Замовити</a></button>
         </div>
         <div class="container6">
             <img src="syr.jpg" alt="Сир">
+            <p class="pbutton6" style="font-size: large;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                Вареники з сиром
+            </p>
             <button class="order-btn"><a href="zamow.html">Замовити</a></button>
         </div>
 
 
     </main>
+    <script src="index.js"></script>
     
 </body>
 </html>
