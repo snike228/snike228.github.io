@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Магазин вареників</title>
+</head>
+<body class="body1" >
+    
+    
+
+    <header class="head1">
+        <div class="div111">
+            <h1 class="h111">
+                Магазин вареників
+            </h1>
+            <p class="header-description">Замовляйте наші домашні вареники з різними начинками!</p>
+            <a href="index.html" class="a1">
+                Головна
+            </a>
+        </div>
+    </header>
+    <main class="main-content">
+        <section class="filling-section">
+            <h2 class="filling-title">Наші Начинки</h2>
+            <ul class="filling-list">
+                <li class="filling-item1">З картоплею</li>
+                <li class="filling-item2">З капустою</li>
+                <li class="filling-item3">З вишнею</li>
+                <li class="filling-item4">З сиром</li>
+                <li class="filling-item5">З мясом</li>
+                <li class="filling-item6">З грибами</li>
+            </ul>
+        </section>
+        <section class="order-section">
+            <h2 class="order-title">Замовлення</h2>
+            <form class="order-form">
+                <label class="form-label" for="name">Ваше ім'я:</label>
+                <input class="form-input" type="text" id="name" name="name" required>
+
+                <label class="form-label" for="email">Ваш Email:</label>
+                <input class="form-input" type="email" id="email" name="email" required>
+
+                <label class="form-label" for="filling">Виберіть начинку:</label>
+                <select class="form-select" id="filling" name="filling">
+                    <option value="картошка">Картопля</option>
+                    <option value="капуста">Капуста</option>
+                    <option value="вишня">Вишня</option>
+                    <option value="сир">Сир</option>
+                    <option value="М'ясо">М'ясо</option>
+                    <option value="Гриби">Гриби</option>
+                    
+                </select>
+
+                <button class="form-button" type="submit">Замовити</button>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="footer-text">&copy; 2024 Смачні Вареники. Всі права захищені.</p>
+    </footer>
+   
+    
+</body>
+</html>
